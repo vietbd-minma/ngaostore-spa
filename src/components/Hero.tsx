@@ -3,6 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Shield, Zap, CheckCircle, ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -30,17 +31,17 @@ export default function Hero() {
           </h1>
           
           <p className="text-white/60 text-lg md:text-xl mb-8 max-w-xl leading-relaxed">
-            Ghép Sim iPhone Lock như Quốc Tế với Sim Ghép thông minh từ Ngáo Store. 
-            Tự động kích hoạt, fix full lỗi, sóng cực khỏe, hỗ trợ mọi iOS.
+            Ghép sim iPhone Lock sóng sánh ổn định với sim ghép mới nhất từ Ngáo Store. 
+            Tự động kích hoạt, fix full lỗi, hỗ trợ từ iPhone 6 đến iPhone 17.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             <button className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-2xl font-bold text-lg flex items-center justify-center gap-2 transition-all shadow-xl shadow-primary/25 group">
-              Mua Sim Ngay
+              <a target="_blank" href="https://shopee.vn/ngaostore86">Mua Sim Ngay</a>
               <ArrowRight className="group-hover:translate-x-1 transition-transform" />
             </button>
             <button className="bg-white/5 hover:bg-white/10 text-white border border-white/10 px-8 py-4 rounded-2xl font-bold text-lg transition-all">
-              Xem Bảng Giá
+              <a href="#pricing">Xem Bảng Giá</a>
             </button>
           </div>
 
@@ -65,20 +66,15 @@ export default function Hero() {
           className="relative"
         >
           <div className="relative z-10 bg-gradient-to-br from-white/10 to-white/5 p-4 rounded-[40px] border border-white/10 backdrop-blur-sm">
-            <img 
-              src="https://images.unsplash.com/photo-1616348436168-de43ad0db179?auto=format&fit=crop&q=80&w=800" 
-              alt="iPhone with SIM"
-              className="rounded-[30px] shadow-2xl"
-            />
-            {/* Overlay badge */}
+            <Image src="/images/hero-banner.png" alt="Sim iPhone Lock" width={600} height={600} className="rounded-[30px] shadow-2xl" />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-3xl shadow-2xl animate-bounce-slow">
               <div className="text-secondary-dark font-black text-3xl leading-none">99%</div>
-              <div className="text-secondary/60 text-sm font-bold uppercase mt-1">Như Quốc Tế</div>
+              <div className="text-secondary/60 text-sm font-bold uppercase mt-1">Ổn định</div>
             </div>
             
             <div className="absolute -top-6 -right-6 bg-primary p-6 rounded-3xl shadow-2xl animate-pulse">
-              <div className="text-white font-black text-2xl leading-none">FREE</div>
-              <div className="text-white/80 text-sm font-bold uppercase mt-1">Lắp Đặt</div>
+              <div className="text-white font-black text-2xl leading-none">24/7</div>
+              <div className="text-white/80 text-sm font-bold uppercase mt-1">Hỗ Trợ</div>
             </div>
           </div>
           

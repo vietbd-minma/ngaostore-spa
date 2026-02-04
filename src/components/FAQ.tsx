@@ -5,16 +5,12 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 
 const faqs = [
   {
-    q: "Có hỗ trợ các dòng iPhone đời mới nhất không?",
-    a: "Ngáo Store luôn cập nhật các loại sim ghép mới nhất để hỗ trợ iPhone 17, 16 series và các bản cập nhật iOS mới nhất từ Apple."
+    q: "Shop có hỗ trợ ghép sim không? Nếu có thì phí bao nhiêu?",
+    a: "Tất cả sim ghép mua tại Ngáo Store bạn đều được hỗ trợ ghép sim miễn phí. Phí ghép sim chỉ phát sinh khi bạn mua sim ghép tại các cửa hàng khác."
   },
   {
-    q: "Sim ghép có làm hao pin iPhone không?",
-    a: "Với công nghệ sim ghép thế hệ mới tại Ngáo Store, mức tiêu thụ điện năng cực thấp, gần như không gây hao pin đáng kể. Bạn có thể yên tâm sử dụng cả ngày."
-  },
-  {
-    q: "iPhone Lock sau khi ghép sim có dùng được 4G/5G không?",
-    a: "Hoàn toàn được! Sim ghép của chúng tôi hỗ trợ băng tần 4G và 5G ổn định, tốc độ truy cập mạng tương đương với máy quốc tế."
+    q: "iPhone Lock sau khi ghép sim có ổn định không?",
+    a: "Tùy theo model iPhone và sim ghép mà có thể có sự khác biệt. Nhưng chúng tôi bảo đảm quá trình sử dụng bạn sẽ được hỗ trợ nếu có vấn đề phát sinh."
   },
   {
     q: "Tôi có thể tự lắp sim ghép tại nhà không?",
@@ -23,6 +19,10 @@ const faqs = [
   {
     q: "Sim ghép có bị 'văng' active khi thay đổi khu vực không?",
     a: "Chúng tôi sử dụng sim ghép và phương pháp kích hoạt mới nhất giúp duy trì trạng thái active ổn định, hạn chế tối đa việc bị văng active khi di chuyển."
+  },
+  {
+    q: "Sim ghép có làm hao pin iPhone không?",
+    a: "Với công nghệ sim ghép thế hệ mới tại Ngáo Store, mức tiêu thụ điện năng cực thấp, gần như không gây hao pin đáng kể. Bạn có thể yên tâm sử dụng cả ngày."
   }
 ];
 
@@ -44,7 +44,7 @@ export default function FAQ() {
               Bạn có câu hỏi khác? Liên hệ ngay với đội ngũ hỗ trợ của chúng tôi để được tư vấn miễn phí.
             </p>
             <button className="bg-secondary text-white px-8 py-4 rounded-2xl font-bold transition-all hover:bg-secondary-dark">
-              <a target="_blank" href="tel:0988012895">Liên Hệ Hỗ Trợ</a>
+              <a target="_blank" href="http://zalo.me/0988012895">Liên Hệ Hỗ Trợ</a>
             </button>
           </div>
 
